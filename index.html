@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GloryAutoTech</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- my stylesheet css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicol icon  -->
+    <link rel="icon" href="image/LOGO.png" type="image/gif" sizes="16x16">
+    <!-- fa fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header image  -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div>
+                <img src="image/header-bg.jpg" class="img-responsive" height="500px">
+            </div>
+        </div> -->
+    <!-- end header image  -->
+    <div class="first">
+        <!-- navigation  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1" align="center">
+                    <img src="image/new-logo.png" height="220px" width="220px">
+                </div>
+                <div class="col-md-11">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="nav pull-right">
+                                <li class="speak one"><span>HOME</span></li>
+                                <li class="speak two"><span>ABOUT US</span></li>
+                                <li class="speak three"><span>SERVICE</span></li>
+                                <li class="speak four"><span>PROJECTS</span></li>
+                                <li class="speak one"><span>CONTECT US</span></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- end navigation  -->
+        <!-- second part -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="company">Website Design & Web Development Company</h1>
+                    <h4 class="font-main">Getting your website right makes everything else easier.</h4>
+                    <button class="button button1">Get A Free Quote</button>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+        <!-- end second part -->
+        <!-- three box nformation-->
+        <section class="services py-5" id="services">
+            <div class="container">
+                <h3 class="heading text-center">WORK</h3>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                                <div class="our-services-img">
+                                    <span class="fa fa-users"></span>
+                                </div>
+                                <div class="our-services-text">
+                                    <h4>Websites designed to generate conversions</h4>
+                                    <p>A fully featured, secure web based school management system with great support.</p>
+
+                                    <a href="#" class="btn btn-danger">More..</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                                <div class="our-services-img">
+                                    <span class="fa fa-institution"></span>
+                                </div>
+                                <div class="our-services-text">
+                                    <h4>Solution for COLLEGE</h4>
+                                    <p>Identifying patterns & trends so educators can make informed decisions</p>
+                                    <a href="#" class="btn btn-danger">More..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                                <div class="our-services-img">
+                                    <span class="fa fa-laptop"></span>
+                                </div>
+                                <div class="our-services-text">
+                                    <h4>Solution for E-Learning</h4>
+                                    <p>LMS helps to manage the delivery of your elearning programmes</p>
+                                    <a href="#" class="btn btn-danger">More..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <!--end three box nformation-->
+
+</body>
+<!-- navigation  -->
+<script>
+    var els = document.querySelectorAll('.speak');
+    [].forEach.call(els, function(el) {
+        el.addEventListener('click', function() {
+            [].forEach.call(els, function(clk) {
+                clk.classList.remove('active');
+            });
+            el.classList.add('active');
+        });
+    });
+</script>
+<!-- end navigation  -->
+
+</html>
