@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* header image  */
 
 .first {
@@ -541,7 +544,15 @@ span.size {
 
 
 /* projects  */
-
+.scroling
+{
+    display: block;
+    overflow-y: scroll; 
+    height: 560px;
+}
+.scroling::-webkit-scrollbar {
+    display:none;
+}
 
 /*-- gallery --*/
 
@@ -669,6 +680,15 @@ p.quia {
     .services {
         margin-top: 16em;
     }
+    .scroling
+{
+    display: block;
+    overflow-y: scroll; 
+    height: 480px;
+}
+.scroling::-webkit-scrollbar {
+    display:none;
+}
 }
 
 @media (max-width: 768px) {
