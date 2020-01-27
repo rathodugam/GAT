@@ -1,10 +1,12 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
+
 /* header image  */
 
 .first {
-    background-image: url("image/header-bg.jpg");
+    background-image: url("../image/header-bg.jpg");
     background-color: #cccccc;
     height: 730px;
     background-position: center;
@@ -544,15 +546,17 @@ span.size {
 
 
 /* projects  */
-.scroling
-{
+
+.scroling {
     display: block;
-    overflow-y: scroll; 
-    height: 560px;
+    overflow-y: scroll;
+    height: 550px;
 }
+
 .scroling::-webkit-scrollbar {
-    display:none;
+    display: none;
 }
+
 
 /*-- gallery --*/
 
@@ -653,6 +657,106 @@ p.quia {
 /* end projects  */
 
 
+/*-- testimonials --*/
+
+.testimonials .h3-w3l {
+    color: #fff;
+}
+
+
+/*--/cliant --*/
+
+.testimonials {
+    background: url(../image/2.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0;
+}
+
+.test-review {
+    padding: 2em;
+    border: 1px solid #fff;
+}
+
+.test-review p {
+    color: #fff;
+    line-height: 2.2em;
+}
+
+.test-review img {
+    margin: 0 auto;
+}
+
+.test-review img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+}
+
+.w3_about_grid_left h6 {
+    color: #EB4549;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.test-monials h5 {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    text-transform: none;
+    margin-top: 1em;
+}
+
+.test-review i {
+    color: #fff;
+    font-size: 2em;
+    margin: 0 0.5em;
+}
+
+.img-agile h6 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.img-agile img {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.test-tooltip1:after {
+    content: '';
+    position: absolute;
+    left: -19px;
+    border-color: #fff;
+    top: 40%;
+    border-left: 9px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid rgba(255, 255, 255, 0.66);
+    transform: rotate(90deg);
+    -webkit-transform: rotate(-92deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+
+/*-- //cliant --*/
+
+
 /* responsive  */
 
 @media (max-width:500px) {
@@ -680,15 +784,14 @@ p.quia {
     .services {
         margin-top: 16em;
     }
-    .scroling
-{
-    display: block;
-    overflow-y: scroll; 
-    height: 480px;
-}
-.scroling::-webkit-scrollbar {
-    display:none;
-}
+    .scroling {
+        display: block;
+        overflow-y: scroll;
+        height: 480px;
+    }
+    .scroling::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
