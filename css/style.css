@@ -1,6 +1,9 @@
-html {
-    scroll-behavior: smooth;
-}
+/* body {
+    background-image: url("../image/background.gif");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 
 /* header image  */
@@ -666,95 +669,176 @@ p.quia {
 
 /*--/cliant --*/
 
-.testimonials {
-    background: url(../image/2.jpg);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-attachment: fixed;
-    padding: 5em 0;
-}
-
-.test-review {
-    padding: 2em;
-    border: 1px solid #fff;
-}
-
-.test-review p {
-    color: #fff;
-    line-height: 2.2em;
-}
-
-.test-review img {
-    margin: 0 auto;
-}
-
-.test-review img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
-    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
-    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
-}
-
-.w3_about_grid_left h6 {
-    color: #EB4549;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin: 0;
-}
-
-.test-monials h5 {
-    font-size: 20px;
-    text-align: center;
-    color: #000;
-    text-transform: none;
-    margin-top: 1em;
-}
-
-.test-review i {
-    color: #fff;
-    font-size: 2em;
-    margin: 0 0.5em;
-}
-
-.img-agile h6 {
-    font-size: 1.2em;
-    color: #fff;
-    margin-top: 1em;
-}
-
-.img-agile img {
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-.test-tooltip1:after {
-    content: '';
-    position: absolute;
-    left: -19px;
-    border-color: #fff;
-    top: 40%;
-    border-left: 9px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 18px solid rgba(255, 255, 255, 0.66);
-    transform: rotate(90deg);
-    -webkit-transform: rotate(-92deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-}
-
 
 /*-- //cliant --*/
+
+
+/* --/contact-- */
+
+.map iframe {
+    border: none;
+    width: 100%;
+    min-height: 40em;
+}
+
+.map {
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: -35em;
+    margin-bottom: 5%;
+    width: 70%;
+    position: absolute;
+    margin-left: 16em;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --//contact-- */
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    margin: 2em;
+}
+
+.fa {
+    align-items: center;
+    margin: 5px;
+}
+
+
+/* end footer  */
+
+
+/* about us  */
+
+
+/*-- stats --*/
+
+.stats-info1 {
+    background: url(../image/background.gif) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.stats-info {
+    background: url(../image/we-do-bg.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.stats-info h3.heading,
+p.center {
+    color: #fff;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+p.text-li {
+    color: #ccc;
+}
+
+.stats-grid-w3-agile .icon-right-w3ls {
+    background: #ff3c41;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.stats-grid-w3-agile span.fa {
+    font-size: 30px;
+    color: #fff;
+    line-height: 65px;
+}
+
+.counter {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* end about us  */
 
 
 /* responsive  */
@@ -792,6 +876,60 @@ p.quia {
     .scroling::-webkit-scrollbar {
         display: none;
     }
+    .contact-form {
+        background: #fff;
+        margin-top: -2em;
+        margin-bottom: 5%;
+        width: 100%;
+        position: absolute;
+        margin-left: 1em;
+    }
+    .box {
+        width: 100%;
+        height: 500px;
+        margin: 2em;
+        margin-top: 10px;
+    }
+    .fa {
+        align-items: center;
+        margin: 0px;
+    }
+    .footer {
+        background-color: black;
+        margin-top: 23em;
+    }
+    .footer-font {
+        line-height: 0rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .counter {
+        font-size: 30px;
+        margin-left: 6em;
+        margin-top: -2em;
+    }
+    .text-li {
+        margin-left: 13em;
+    }
+    .stats-grid-w3-agile .icon-right-w3ls {
+        margin-left: 5em;
+    }
+}
+
+@media (max-width :736) {
+    .stats-grid-w3-agile .icon-right-w3ls {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .stats-grid-w3-agile span.fa {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .counter {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -803,4 +941,15 @@ p.quia {
         border-color: black;
         margin-bottom: 12em;
     }
+    .map {
+        margin-bottom: 0em;
+    }
+    .map iframe {
+        border: none;
+        width: 100%;
+        min-height: 18em;
+        margin-bottom: 1em;
+    }
 }
+
+s
