@@ -775,6 +775,18 @@ p.quia {
 
 /* about us  */
 
+.about {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.aboutp {
+    font-size: 20px;
+    margin: 10px;
+}
+
 
 /*-- stats --*/
 
@@ -803,6 +815,7 @@ p.center {
 
 .overlay {
     background: rgba(0, 0, 0, 0.5);
+    height: auto;
 }
 
 p.text-li {
@@ -835,6 +848,8 @@ p.text-li {
     line-height: 1.2;
     color: #fff;
     font-weight: 700;
+    margin-left: 106px;
+    margin-top: 28px;
 }
 
 
