@@ -1,15 +1,12 @@
-/* body {
-    background-image: url("../image/background.gif");
-    color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* header image  */
 
 .first {
-    background-image: url("../image/header-bg.jpg");
+    background-image: url("image/header-bg.jpg");
     background-color: #cccccc;
     height: 730px;
     background-position: center;
@@ -553,7 +550,7 @@ span.size {
 .scroling {
     display: block;
     overflow-y: scroll;
-    height: 550px;
+    height: 560px;
 }
 
 .scroling::-webkit-scrollbar {
@@ -660,17 +657,86 @@ p.quia {
 /* end projects  */
 
 
-/*-- testimonials --*/
+/* about us  */
 
-.testimonials .h3-w3l {
-    color: #fff;
+.about {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.aboutp {
+    font-size: 20px;
+    margin: 10px;
 }
 
 
-/*--/cliant --*/
+/*-- stats --*/
+
+.stats-info1 {
+    background: url(../image/background.gif) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.stats-info {
+    background: url(../GAT/image/we-do-bg.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.stats-info h3.heading,
+p.center {
+    color: #fff;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+p.text-li {
+    color: #ccc;
+}
+
+.stats-grid-w3-agile .icon-right-w3ls {
+    background: #ff3c41;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.stats-grid-w3-agile span.fa {
+    font-size: 30px;
+    color: #fff;
+    line-height: 65px;
+}
+
+.counter {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 106px;
+    margin-top: 28px;
+}
 
 
-/*-- //cliant --*/
+/* end about us  */
 
 
 /* --/contact-- */
@@ -752,108 +818,8 @@ p.quia {
 
 /* footer */
 
-.footer {
-    background-color: black;
-    color: #fff;
-    font-size: 20px;
-}
-
-.box {
-    width: 100%;
-    height: 200px;
-    margin: 2em;
-}
-
-.fa {
-    align-items: center;
-    margin: 5px;
-}
-
 
 /* end footer  */
-
-
-/* about us  */
-
-.about {
-    font-size: 50px;
-    color: #000;
-    font-weight: bold;
-    font-weight: 600;
-}
-
-.aboutp {
-    font-size: 20px;
-    margin: 10px;
-}
-
-
-/*-- stats --*/
-
-.stats-info1 {
-    background: url(../image/background.gif) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-}
-
-.stats-info {
-    background: url(../image/we-do-bg.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-}
-
-.stats-info h3.heading,
-p.center {
-    color: #fff;
-}
-
-.overlay {
-    background: rgba(0, 0, 0, 0.5);
-    height: auto;
-}
-
-p.text-li {
-    color: #ccc;
-}
-
-.stats-grid-w3-agile .icon-right-w3ls {
-    background: #ff3c41;
-    width: 65px;
-    height: 65px;
-    line-height: 65px;
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.stats-grid-w3-agile span.fa {
-    font-size: 30px;
-    color: #fff;
-    line-height: 65px;
-}
-
-.counter {
-    font-size: 40px;
-    line-height: 1.2;
-    color: #fff;
-    font-weight: 700;
-    margin-left: 106px;
-    margin-top: 28px;
-}
-
-
-/* end about us  */
 
 
 /* responsive  */
@@ -895,7 +861,7 @@ p.text-li {
         background: #fff;
         margin-top: -2em;
         margin-bottom: 5%;
-        width: 100%;
+        width: 90%;
         position: absolute;
         margin-left: 1em;
     }
@@ -904,17 +870,6 @@ p.text-li {
         height: 500px;
         margin: 2em;
         margin-top: 10px;
-    }
-    .fa {
-        align-items: center;
-        margin: 0px;
-    }
-    .footer {
-        background-color: black;
-        margin-top: 23em;
-    }
-    .footer-font {
-        line-height: 0rem;
     }
 }
 
@@ -966,5 +921,3 @@ p.text-li {
         margin-bottom: 1em;
     }
 }
-
-s
