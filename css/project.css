@@ -55,16 +55,99 @@
     margin-left: 3em;
 }
 
-
-}
 .button1 {
     background-color: white;
     color: black;
     border: 2px solid rgb(243, 0, 134);
 }
+
 .button1:hover {
     background-color: rgb(243, 0, 134);
     color: white;
 }
 
+
 /* end button  */
+
+
+/* slider  */
+
+.jumbotron {
+    background-color: rgb(221, 57, 147);
+    margin-top: 5px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    margin: 0 0 0 0;
+    font-weight: 600;
+}
+
+
+/* end slider  */
+
+
+/* detail project  */
+
+.detail {
+    font-size: 2em;
+    font-weight: 800;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 2em;
+}
+
+.icon {
+    color: rgb(243, 0, 134);
+    position: absolute;
+}
+
+
+/* end detail project   */
+
+.btn-lg {
+    margin: 1em;
+}
+
+.work {
+    margin: 2em;
+}
+
+
+/* footer */
+
+.footer {
+    background: url("../image/background_88.normal.jpeg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    color: #fff;
+}
+
+.footer-f {
+    margin-bottom: 6em;
+}
+
+.icon1 {
+    margin-top: 8em;
+}
+
+
+/* end footer  */
+
+
+/* responsive  */
+
+@media (max-width:500px) {
+    .logofont {
+        display: none;
+    }
+    .glory {
+        font-size: 2em;
+    }
+    .first {
+        height: 869px;
+    }
+}
