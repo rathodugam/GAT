@@ -6,7 +6,7 @@ html {
 /* header image  */
 
 .first {
-    background-image: url("image/header-bg.jpg");
+    background-image: url("../image/header-bg.jpg");
     background-color: #cccccc;
     height: 730px;
     background-position: center;
@@ -28,8 +28,8 @@ html {
 
 
 /* .nav .active span {
-    background: #CEDD3E;
-    color: aqua;
+background: #CEDD3E;
+color: aqua;
 } */
 
 .navbar-default {
@@ -657,6 +657,60 @@ p.quia {
 /* end projects  */
 
 
+/* our cliant  */
+
+.parallax {
+    /* The image used */
+    background-image: url('../image/website-startups.jpg');
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 70%;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-color: black;
+    opacity: 0.8;
+}
+
+#slideshow>div {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.slide-font {
+    color: #fff;
+    font-weight: 600;
+    font-size: 4em;
+}
+
+#slideshow p {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#slideshow h1 {
+    color: #fff;
+}
+
+
+/* end our cliant  */
+
+
 /* about us  */
 
 .about {
@@ -674,17 +728,8 @@ p.quia {
 
 /*-- stats --*/
 
-.stats-info1 {
-    background: url(../image/background.gif) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-}
-
 .stats-info {
-    background: url(../GAT/image/we-do-bg.jpg) no-repeat center;
+    background: url(../image/we-do-bg.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -703,6 +748,7 @@ p.center {
 
 p.text-li {
     color: #ccc;
+    margin: 0 88px 10px;
 }
 
 .stats-grid-w3-agile .icon-right-w3ls {
@@ -818,6 +864,24 @@ p.text-li {
 
 /* footer */
 
+.footer {
+    background: url("../image/background_88.normal.jpeg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    color: #fff;
+}
+
+.footer-f {
+    margin-bottom: 6em;
+}
+
+.icon {
+    margin-top: 8em;
+}
+
 
 /* end footer  */
 
@@ -870,6 +934,15 @@ p.text-li {
         height: 500px;
         margin: 2em;
         margin-top: 10px;
+    }
+    .footer {
+        margin-top: 34em
+    }
+    #slideshow {
+        margin: 8px auto;
+        position: relative;
+        width: 100%;
+        height: 290px;
     }
 }
 

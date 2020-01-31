@@ -14,13 +14,13 @@
     color: white;
     font-weight: 600;
     font-size: 4em;
-    margin-top: -112px;
+    margin-top: -121px;
     margin-left: 145px;
 }
 
 .glory {
     color: #fff;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 600;
     margin: 1em;
 }
@@ -73,7 +73,7 @@
 /* slider  */
 
 .jumbotron {
-    background-color: rgb(221, 57, 147);
+    background-color: rgb(69, 71, 75);
     margin-top: 5px;
 }
 

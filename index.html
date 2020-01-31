@@ -15,7 +15,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- my stylesheet css  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- favicol icon  -->
     <link rel="icon" href="image/LOGO.png" type="image/gif" sizes="16x16">
     <!-- fa fa icon  -->
@@ -57,7 +57,8 @@
                                 <li class="speak two"><span>ABOUT US</span></li>
                                 <li class="speak three"><span>SERVICE</span></li>
                                 <li class="speak four"><span>PROJECTS</span></li>
-                                <li class="speak one"><span>CONTECT US</span></li>
+                                <li class="speak one"><span>CAREER</span></li>
+                                <li class="speak two"><span>CONTECT US</span></li>
                             </ul>
                         </div>
                     </nav>
@@ -78,6 +79,7 @@
                 <div class="col-md-6"></div>
             </div>
         </div>
+
         <!-- end second part -->
         <!-- three box nformation-->
         <section class="services py-5" id="services">
@@ -322,6 +324,35 @@
             </div>
         </div>
         <!-- end our work progresh  -->
+        <!-- our cliant  -->
+        <div class="container-fluid parallax">
+            <h1 class="text-center slide-font">OUR CLIENT</h1>
+            <div class="row">
+                <div id="slideshow">
+                    <div>
+                        <h1 class="text-center">cliant name</h1>
+                        <p> "You guys are the best! Keep up the great work!"</p>
+                    </div>
+                    <div>
+                        <h1 class="text-center">cliant name</h1>
+                        <p> "I just wanted to let you know that it’s been great working with you."</p>
+                    </div>
+                    <div>
+                        <h1 class="text-center">cliant name</h1>
+                        <p> Pretty cool eh? This slide is proof the content can be anything.</p>
+                    </div>
+                    <div>
+                        <h1 class="text-center">cliant name</h1>
+                        <p> "Create great-looking website forms that do real work. "</p>
+                    </div>
+                    <div>
+                        <h1 class="text-center">cliant name</h1>
+                        <p> "Intuitively add complex calculations, automations and integrations."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end our cliant  -->
         <!-- about us  -->
         <div class="container ">
             <div class="row ">
@@ -503,5 +534,17 @@
     AOS.init();
 </script>
 <!-- end aso animation  -->
+<script>
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+        $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+    }, 4000);
+</script>
 
 </html>
