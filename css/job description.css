@@ -1,54 +1,37 @@
-.nav li {
-    color: #fff;
-    margin: 2em;
-    font-size: 20px;
-}
-
-.social {
-    color: #fff;
-    margin: 2em;
-    text-align: end;
-}
-
-.navbar-brand {
-    font-size: 2em;
-    margin: 1em;
-}
-
-.heading {
-    font-weight: 600;
-    text-align: center;
-    margin-top: 3em;
-}
-
-.heading p {
-    margin: 1em;
-}
-
-.job-font {
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .box {
+    background-color: rgb(71, 71, 71) !important;
+    color: #fff;
     padding: 1em;
+    margin-bottom: 20px;
 }
 
 .box a {
     text-decoration: none;
-    color: black;
+    font-size: 2em;
+    color: #fff;
 }
 
-.box a:hover {
-    color: blue;
+.job-font {
+    font-size: 18px;
+    color: rgb(28, 182, 187);
+    border: rgb(8, 125, 129) solid;
+    margin: 2em;
 }
 
-.nicecolor {
-    background-color: #fff;
+.rules {
+    margin: 2em;
 }
 
-.nicecolor:hover {
-    background-color: rgb(219, 207, 207) !important;
+.rules h4 {
+    font-weight: 600;
+}
+
+.table {
+    margin: 1em;
+}
+
+.btn {
+    margin: 2em;
 }
 
 
